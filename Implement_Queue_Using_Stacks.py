@@ -1,3 +1,9 @@
+# Time Complexity:
+# push() - O(1)
+# pop() - O(1)
+# peek() - O(1) 
+# empty() - O(1)
+
 class MyQueue:
 
     def __init__(self):

@@ -1,3 +1,9 @@
+#Time Complexity:
+#hashValue = O(1)
+#add(value) - O(1)
+#remove(value) - O(1)
+#contains(value) - O(1)
+
 class MyHashSet:
 
     def __init__(self):
