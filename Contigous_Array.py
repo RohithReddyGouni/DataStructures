@@ -1,3 +1,5 @@
+#Time Complexity: O(n)
+#Space Complexity: O(n)
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
         Map={0:-1};
