@@ -1,3 +1,5 @@
+#Time Complexity - O(log n)   
+
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         if len(nums)==1:
@@ -12,3 +14,6 @@ class Solution:
                 high=mid-1
             else:
                 return mid;
+
+
+
