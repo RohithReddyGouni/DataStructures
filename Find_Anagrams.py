@@ -1,3 +1,5 @@
+#Time Complexity: n(m*mlogm)
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         hashMap={};
