@@ -12,7 +12,5 @@ class Solution:
         for i in range(2,len(nums)):
             Max=max(amount[i-2]+nums[i],amount[i-1])
             amount.append(Max)
-        if amount[-1]> amount[-2]:
-            return amount[-1];
-        else:
-            return amount[-2];
+        return amount[-1]
+        
