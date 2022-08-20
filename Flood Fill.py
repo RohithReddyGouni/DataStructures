@@ -15,7 +15,7 @@ class Solution:
             for nr,nc in directions:
                 nr=row+nr
                 nc=col+nc
-                if nr>=0 and nr < m and nc>=0 and nc<n and image[nr][nc]==color_tbc:
+                if nr>=0 and nr < m and nc>=0 and nc<n and (nr,nc) not in visited and image[nr][nc]==color_tbc:
                     image[nr][nc]=color
                     Que.append((nr,nc))
                     visited.add((nr,nc))
